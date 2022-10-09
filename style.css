@@ -1,6 +1,8 @@
 :root {
-  --body-bg-color: #FAF7FD;
-  --purple: #BB99DD;
+  /* --body-bg-color: #FAF7FD;
+  --purple: #BB99DD; */
+  --body-bg-color: #1d1d1d;
+  --purple: #0091eb;
   font-size: 62.5%;
   font-family: 'Poppins', sans-serif;
 }
