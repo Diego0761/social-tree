@@ -73,18 +73,20 @@ body {
   justify-content: space-between;
 }
 
-.icon {
-  transition: 0.3s linear;
-}
-
-.link {
-  transition: 0.3s linear;
-}
-
-.icon:hover {
-  transform: scale(1.5);
-}
-
-.link:hover {
-  background-color: var(--transluscent);
+@media (min-width: 800px) {
+  .icon {
+    transition: 0.3s linear;
+  }
+  
+  .link {
+    transition: 0.3s linear;
+  }
+  
+  .icon:hover {
+    transform: scale(1.5);
+  }
+  
+  .link:hover {
+    background-color: var(--transluscent);
+  }
 }
