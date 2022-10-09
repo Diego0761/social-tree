@@ -3,6 +3,7 @@
   --purple: #BB99DD; */
   --body-bg-color: #1d1d1d;
   --purple: #0091eb;
+  --transluscent: #0091eb32;
   font-size: 62.5%;
   font-family: 'Poppins', sans-serif;
 }
@@ -70,4 +71,20 @@ body {
   height: 2.4rem;
   display: flex;
   justify-content: space-between;
+}
+
+.icon {
+  transition: 0.3s linear;
+}
+
+.link {
+  transition: 0.3s linear;
+}
+
+.icon:hover {
+  transform: scale(1.5);
+}
+
+.link:hover {
+  background-color: var(--transluscent);
 }
