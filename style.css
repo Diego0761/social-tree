@@ -1,0 +1,71 @@
+:root {
+  --body-bg-color: #FAF7FD;
+  --purple: #BB99DD;
+  font-size: 62.5%;
+  font-family: 'Poppins', sans-serif;
+}
+
+body {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  background-color: var(--body-bg-color);
+}
+
+.container {
+  height: calc(100vh);
+  width: calc(100vw);
+  box-sizing: border-box;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+#avatar-image {
+  height: 20rem;
+  width: 20rem;
+  border-radius: 50%;
+  padding: 0.6rem;
+  border: 0.2rem solid var(--purple);
+  margin-bottom: 1.5rem;
+}
+
+#username {
+  color: var(--purple);
+  font-weight: 300;
+  font-size: 1.6rem;
+  line-height: 2.4rem;
+  text-align: center;
+  margin-bottom: 3.3rem;
+}
+
+.link {
+  height: 4.9rem;
+  width: 32.6rem;
+  border: .2rem solid var(--purple);
+  border-radius: .4rem;
+  display: flex;
+  margin-bottom: 1.6rem;
+
+  font-size: 1.6rem;
+  font-weight: 600;
+  line-height: 2.4rem;
+  color: var(--purple);
+  text-decoration: none;
+  text-transform: uppercase;
+  align-items: center;
+  text-align: center;
+  justify-content: center;
+}
+
+.link:last-child {
+  margin-bottom: 6.8rem;
+}
+
+.icons {
+  width: 23.6rem;
+  height: 2.4rem;
+  display: flex;
+  justify-content: space-between;
+}
