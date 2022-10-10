@@ -16,8 +16,8 @@ body {
 }
 
 .container {
-  height: calc(100vh);
-  width: calc(100vw);
+  height: 100vh;
+  width: 100vw;
   box-sizing: border-box;
   display: flex;
   flex-direction: column;
@@ -89,4 +89,10 @@ body {
   .link:hover {
     background-color: var(--transluscent);
   }
+}
+
+.links {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
 }
