@@ -1,4 +1,4 @@
 # social-tree
-Social Tree created using html & css.
+Social Tree created with html & css.
 
   
